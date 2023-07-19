@@ -131,7 +131,7 @@ if choice == 1:
     print(f"interest rate = {r: 0.3f}% \n")
     
     n = int(input('How many months:  '))
-    print(f" = {n} months\n")
+    print(f"n = {n} months\n")
     
     Pmt = computesPmt(PV, r, n)
     Pmt = np.round(Pmt, 2)
